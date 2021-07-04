@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.login_div{
+    background-color: white;
+    border-radius: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    height: 10px;
+    background-color:brown;
+}
+
+button{
+    border-radius: 12px;
+    background-color: green;
+    height:50px;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+}
