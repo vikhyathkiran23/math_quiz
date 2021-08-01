@@ -1,0 +1,56 @@
+.index_body{
+    text-align: center;
+    background-image: url("Math Quiz.jpg");
+    align-self: center;
+
+} 
+
+.game_body{
+    background-image: url("Math Quiz.jpg");
+
+}
+
+.row {
+    color: black;
+}
+.login_div{
+    background-color: rgb(207, 207, 207);
+    border-radius: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 30%;
+    margin-left: 450px;
+
+}
+
+.login_div input{
+    width: 50%;
+    margin-left: 100px;
+}
+
+
+hr {
+    width: 100px;
+    height: 10px;
+    background-color:brown;
+}
+
+button{
+    border-radius: 12px;
+    background-color: red;
+    height:50px;
+    width: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
