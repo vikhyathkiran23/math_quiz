@@ -10,23 +10,29 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body class="game_body">
-        <h4 id="Player_1_Name" style="color: white;"></h4><span id="player_1_score" style="color: white;"></span>
+        <h4 id="Player_1_Name" style="color: white"></h4>
+        <span id="player_1_score" style="color: white;"></span>
         <br>
-        <h4 id="Player_2_Name" style="color: white;"></h4><span id="player_2_score" style="color: white;"></span>
+        <h4 id="Player_2_Name" style="color: white;"></h4>
+        <span id="player_2_score" style="color: white;"></span>
 
         <div class="container" style="color: white;">
             <center>
                 <h2 style="color:white;">The Math Quiz Game!</h2>
-                <h4>Question Turn: <span id="Questioner"></span></h4>
-                <h4>Answer Turn: <span id="Answerer"></span></h4>
+                <div class="sample">
+                <h3>Question Turn: <span id="Questioner"></span></h3>
+                <h3>Answer Turn: <span id="Answerer"></span></h3>
+                </div>
                 <div id="output" style="color:black;">
                 </div>
                 <h2>Number 1</h2>
                 <br>
-                <input type="number" id="Number_1" class="form-control" placeholder="Number 1">
+                <input type="number" id="Number_1" class="form-control" placeholder="Enter any number here">
                 <h2>Number 2</h2>
                 <br>
-                <input type="number" id="Number_2" class="form-control" placeholder="Number 2">
+                <input type="number" id="Number_2" class="form-control" placeholder="Enter any number here">
+                <br>
+                <br>
                 <button onclick="send()">Send</button>
             </center>
         </div>
